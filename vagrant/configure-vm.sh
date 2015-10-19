@@ -23,3 +23,4 @@ chown -hR ftp:ftp /var/ftp
 cp /vagrant/local/vsftpd.conf /etc/vsftpd.conf
 service vsftpd restart
 chmod -w /var/ftp
+chmod -R 755 /var/ftp/*
